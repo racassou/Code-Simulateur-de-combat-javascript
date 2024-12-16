@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #5fe7f6;
+    border: 3px solid #000000;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+nav button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.presentation {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+    background-color: #97f6f9;
+    border: 3px solid #000000;
+}
+
+.welcome-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(115, 250, 255);
+    padding: 20px;
+    border-radius: 8px;
+    border: 3px solid #000;
+    color: #333;
+}
+
+.product-preview {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    background-color: #97f6f9;
+    border: 3px solid #000000;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #5fe7f6;
+    border: 3px solid #000;
+}
+
+.footer-section, .social-media {
+    width: 23%;
+}
+
+.link {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    color: inherit;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+body.dark-mode button {
+    border-color: #f1f1f1;
+}

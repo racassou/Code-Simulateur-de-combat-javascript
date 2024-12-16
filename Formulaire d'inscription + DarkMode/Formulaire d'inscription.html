@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="FI.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <button id="toggleDarkMode" class="dark-mode-toggle">
+            <span class="icon moon">&#x263D;</span>
+            <span class="icon sun">&#x2600;</span>
+        </button>
+        <h1>Formulaire d'inscription</h1>
+        <div id="formFeedback" class="form-feedback"></div>
+        <form id="myForm">
+            <div class="form-group">
+                <label for="pseudo">Pseudo <span>(6 caractères minimum)</span></label>
+                <input type="text" id="pseudo" name="pseudo" placeholder="Entrez votre pseudo">
+                <div class="error-message"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@email.com">
+                <div class="error-message"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Mot de passe <span>(8 caractères minimum)</span></label>
+                <input type="password" id="password" name="password" placeholder="********">
+                <div class="error-message"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword">Confirmez le mot de passe</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="********">
+                <div class="error-message"></div>
+            </div>
+
+            <div class="form-group">
+                <label><input type="checkbox" id="rememberMe" name="rememberMe"> Se souvenir de moi</label>
+                <div class="error-message"></div>
+            </div>
+
+            <button type="button" id="submitButton">Soumettre</button>
+        </form>
+        <div class="link"><a href="Pagedaccueil1.html">Retour au menu</a></div>
+    </div>
+    <script src="FI.js"></script>
+</body>
+</html>
